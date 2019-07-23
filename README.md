@@ -1,4 +1,4 @@
-# Disciple-Tools-Trasfer-Token
+# Disciple-Tools-Transfer-Token
 Generates a Disciple.Tools transfer token to be used in the Zapier integration
 
 ## How to use Zapier with Disciple.Tools
