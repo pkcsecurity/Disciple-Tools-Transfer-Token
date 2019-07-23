@@ -3,7 +3,8 @@ const CryptoJs = require('crypto-js');
 const BodyParser = require('body-parser');
 const Express = require('express')
 const app = Express()
-const port = 3000
+
+const port = process.env.PORT || 3000;
 
 const log = function(request, response, next) {
   console.info(`${request.method} ${request.originalUrl}`);
